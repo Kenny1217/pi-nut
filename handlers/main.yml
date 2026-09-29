@@ -1,0 +1,8 @@
+---
+- name: Restart services
+  Service:
+    name: "{{ item }}"
+    state: restarted
+  loop:
+    - nut-server
+    - nut-monitor

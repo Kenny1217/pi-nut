@@ -1,0 +1,16 @@
+---
+nut_ups_mode: "netserver"
+
+nut_ups_name: "ups01"
+nut_ups_driver: "usbhid-ups"
+nut_ups_product: "CP1500PFCRM2U"
+nut_ups_description: "Server Rack UPS"
+nut_ups_port: "auto"
+nut_ups_vendorid: "0764"
+nut_ups_productid: "0601"
+
+nut_ups_listen_ip: "0.0.0.0"
+nut_ups_listen_port: "3493"
+
+nut_ups_admin_user: "admin"
+nut_ups_finaldelay: "180"
